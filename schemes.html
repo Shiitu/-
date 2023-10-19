@@ -30,6 +30,8 @@
 </head>
 
 <body>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/8380697c-19de-40a9-8161-baa8e021cef5/webchat/config.js" defer></script>
     <!-- Topbar Start -->
     <div class="container-fluid px-5 d-none d-lg-block">
         <div class="row gx-5 py-3 align-items-center">
@@ -79,7 +81,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
                 <a href="index.html" class="nav-item nav-link ">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="service.html" class="nav-item nav-link">Service</a>
                 <a href="crop.html" class="nav-item nav-link">Crops</a>
                 <a href="product.html" class="nav-item nav-link">Queries</a>            
@@ -93,7 +95,7 @@
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                     </div>
                 </div> -->
-                <a href="schemes.html" class="nav-item nav-link">Govt. Schemes</a>
+                <a href="schemes.html" class="nav-item nav-link active">Govt. Schemes</a>
                 <a href="resources.html" class="nav-item nav-link ">Resources</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
@@ -107,9 +109,9 @@
         <div class="container py-5">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
-                    <h1 class="display-1 text-white mb-md-4">About Us</h1>
+                    <h1 class="display-1 text-white mb-md-4">Government Schemes</h1>
                     <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
-                    <a href="" class="btn btn-secondary py-md-3 px-md-5">About Us</a>
+                    <!-- <a href="" class="btn btn-secondary py-md-3 px-md-5">Blog Grid</a> -->
                 </div>
             </div>
         </div>
@@ -117,170 +119,204 @@
     <!-- Hero End -->
 
 
-    <!-- About Start -->
-    <div class="container-fluid about pt-5">
-        <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                    <div class="d-flex h-100 border border-5 border-primary border-bottom-0 pt-4">
-                        <img class="img-fluid mt-auto mx-auto" src="img/about.png">
-                    </div>
-                </div>
-                <div class="col-lg-6 pb-5">
-                    <div class="mb-3 pb-2">
-                        <h6 class="text-primary text-uppercase">About Us</h6>
-                        <h1 class="display-5">We have Farmers' knowledge for prosperous agriculture</h1>
-                    </div>
-                    <p class="mb-4">At कृषिसहायक, we are on a mission to transform the landscape of Indian agriculture by bridging the information gap and empowering farmers across the country. We understand that agriculture is not just a way of life; it's the backbone of our nation's economy, and millions of livelihoods depend on its success.</p>
-                    <div class="row gx-5 gy-4">
-                        <div class="col-sm-6">
-                            <i class="fa fa-check display-1 text-secondary"></i>
-                            <h4>Multilingual Digital Assistant</h4>
-                            <p class="mb-0">Multilingual conversational assistant for all users.</p>
+    <!-- Blog Start -->
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- Blog list Start -->
+            <div class="col-lg-8">
+                <div class="row g-5">
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Schemes 1</h4>
+                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                            </a>
                         </div>
-                        <div class="col-sm-6">
-                            <i class="fa fa-phone-alt display-1 text-secondary"></i>
-                            <h4>Agricultural Query Resolution</h4>
-                            <p class="mb-0">Answering common agricultural queries comprehensively.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Schemes 2</h4>
+                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Schemes 3</h4>
+                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Schemes 4</h4>
+                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Schemes 5</h4>
+                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Schemes 6</h4>
+                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Schemes 7</h4>
+                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Schemes 8</h4>
+                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Schemes 9</h4>
+                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                            <a class="blog-overlay" href="">
+                                <h4 class="text-white">Schemes 10</h4>
+                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Blog list End -->
+
+            <!-- Sidebar Start -->
+            <div class="col-lg-4">
+                <!-- Search Form Start -->
+                <!-- <div class="mb-5">
+                    <div class="input-group">
+                        <input type="text" class="form-control p-3" placeholder="Keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div> -->
+                <!-- Search Form End -->
+
+                <!-- Category Start -->
+                <!-- <div class="mb-5">
+                    <h2 class="mb-4">Categories</h2>
+                    <div class="d-flex flex-column justify-content-start bg-primary p-4">
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web Design</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web Development</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web Development</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Keyword Research</a>
+                        <a class="fs-5 fw-bold text-white" href="#"><i class="bi bi-arrow-right me-2"></i>Email Marketing</a>
+                    </div>
+                </div> -->
+                <!-- Category End -->
+
+                <!-- Recent Post Start -->
+                <!-- <div class="mb-5">
+                    <h2 class="mb-4">Recent Post</h2>
+                    <div class="bg-primary p-4">
+                        <div class="d-flex overflow-hidden mb-3">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem ipsum dolor sit amet elit
+                            </a>
+                        </div>
+                        <div class="d-flex overflow-hidden mb-3">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-2.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem ipsum dolor sit amet elit
+                            </a>
+                        </div>
+                        <div class="d-flex overflow-hidden mb-3">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-3.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem ipsum dolor sit amet elit
+                            </a>
+                        </div>
+                        <div class="d-flex overflow-hidden mb-3">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem ipsum dolor sit amet elit
+                            </a>
+                        </div>
+                        <div class="d-flex overflow-hidden">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-2.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem ipsum dolor sit amet elit
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Recent Post End -->
+
+                <!-- Image Start -->
+                <!-- <div class="mb-5">
+                    <img src="img/blog-1.jpg" alt="" class="img-fluid rounded">
+                </div> -->
+                <!-- Image End -->
+
+                <!-- Tags Start -->
+                <!-- <div class="mb-5">
+                    <h2 class="mb-4">Tag Cloud</h2>
+                    <div class="d-flex flex-wrap m-n1">
+                        <a href="" class="btn btn-primary m-1">Design</a>
+                        <a href="" class="btn btn-primary m-1">Development</a>
+                        <a href="" class="btn btn-primary m-1">Marketing</a>
+                        <a href="" class="btn btn-primary m-1">SEO</a>
+                        <a href="" class="btn btn-primary m-1">Writing</a>
+                        <a href="" class="btn btn-primary m-1">Consulting</a>
+                        <a href="" class="btn btn-primary m-1">Design</a>
+                        <a href="" class="btn btn-primary m-1">Development</a>
+                        <a href="" class="btn btn-primary m-1">Marketing</a>
+                        <a href="" class="btn btn-primary m-1">SEO</a>
+                        <a href="" class="btn btn-primary m-1">Writing</a>
+                        <a href="" class="btn btn-primary m-1">Consulting</a>
+                    </div>
+                </div> -->
+                <!-- Tags End -->
+
+                <!-- Plain Text Start -->
+                <!-- <div>
+                    <h2 class="mb-4">Plain Text</h2>
+                    <div class="bg-primary text-center text-white" style="padding: 30px;">
+                        <p>Vero sea et accusam justo dolor accusam lorem consetetur, dolores sit amet sit dolor clita kasd justo, diam accusam no sea ut tempor magna takimata, amet sit et diam dolor ipsum amet diam</p>
+                        <a href="" class="btn btn-secondary py-2 px-4">Read More</a>
+                    </div>
+                </div> -->
+                <!-- Plain Text End -->
+            </div>
+            <!-- Sidebar End -->
         </div>
     </div>
-    <!-- About End -->
+    <!-- Blog End -->
 
-
-    <!-- Facts Start -->
-    <div class="container-fluid bg-primary facts py-5 mb-5">
-        <div class="container py-5">
-            <div class="row gx-5 gy-4">
-                <div class="col-lg-3 col-md-6">
-                    <div class="d-flex">
-                        <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-star fs-4 text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="text-white">Our Experience</h5>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="d-flex">
-                        <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-users fs-4 text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="text-white">Farm Specialist</h5>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="d-flex">
-                        <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-check fs-4 text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="text-white">Complete Project</h5>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="d-flex">
-                        <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-mug-hot fs-4 text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="text-white">Happy Clients</h5>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Facts End -->
-
-
-    <!-- Team Start -->
-    <!-- <div class="container-fluid py-5">
-        <div class="container">
-            <div class="mx-auto text-center mb-5" style="max-width: 500px;">
-                <h6 class="text-primary text-uppercase">The Team</h6>
-                <h1 class="display-5">We Are Professional Organic Farmers</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <div class="row g-0">
-                        <div class="col-10">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                                <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
-                                    <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="h-100 d-flex flex-column align-items-center justify-content-around bg-secondary py-5">
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-twitter text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-facebook-f text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-linkedin-in text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-instagram text-secondary"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="row g-0">
-                        <div class="col-10">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                                <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
-                                    <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="h-100 d-flex flex-column align-items-center justify-content-around bg-secondary py-5">
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-twitter text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-facebook-f text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-linkedin-in text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-instagram text-secondary"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="row g-0">
-                        <div class="col-10">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                                <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
-                                    <h4 class="text-white">Farmer Name</h4>
-                                    <span class="text-white">Designation</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="h-100 d-flex flex-column align-items-center justify-content-around bg-secondary py-5">
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-twitter text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-facebook-f text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-linkedin-in text-secondary"></i></a>
-                                <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-instagram text-secondary"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Team End -->
-    
 
     <!-- Footer Start -->
     <div class="container-fluid bg-footer bg-primary text-white mt-5">
